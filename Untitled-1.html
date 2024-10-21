@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.grid-item .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">Tea of the Month</div>
+  <div class="header">What's Steeping at The Tea Cozy?</div>
+  <div class="grid">
+    <div class="grid-item">
+      <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="200px" width="300px">
+      <div class="title">Fall Berry Blitz Tea</div>
+    </div>
+    
+    <div class="grid">
+        <div class="grid-item">
+          <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="200px" width="300px">
+          <div class="title">Fall Berry Blitz Tea</div>
+        </div>
+        <div class="grid">
+            <div class="grid-item">
+              <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="200px" width="300px">
+              <div class="title">Fall Berry Blitz Tea</div>
+            </div>
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        .card {
+            max-width: 300px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .tags {
+            padding: 10px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 5px 10px;
+            margin-right: 5px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 10px 10px 0;
+        }
+        .card p {
+            padding: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .card button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 0 0 10px 10px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="image-url.jpg" alt="Lago di Braies">
+        <div class="tags">
+            <span class="tag">Nature</span>
+            <span class="tag">Lake</span>
+        </div>
+        <h2>Lago di Braies</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.</p>
+        <button>Read More</button>
+    </div>
+</body>
+</html>
